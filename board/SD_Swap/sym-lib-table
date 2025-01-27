@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "SD_Swap")(type "KiCad")(uri "${KIPRJMOD}/SD_Swap.kicad_sym")(options "")(descr ""))
+  (lib (name "FFC2B35-08-T")(type "KiCad")(uri "/Users/talha/Downloads/FFC2B35-08-T/FFC2B35-08-T.kicad_sym")(options "")(descr ""))
 )
