@@ -5,9 +5,9 @@
 	(uuid "8c0193ca-b84f-44aa-b49e-892333195ad5")
 	(paper "A4")
 	(title_block
-		(title "SD SWAP")
-		(date "2023-08-26")
-		(rev "V1.1")
+		(title "SDWire3")
+		(date "2025-01-26")
+		(rev "V1.0")
 	)
 	(lib_symbols
 		(symbol "74LVC2G14_1"
