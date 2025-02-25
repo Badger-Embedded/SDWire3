@@ -10,4 +10,5 @@
 /board/SD_Swap/gerber/*
 !/board/SD_Swap/gerber/.hidden
 **fp-info-cache
+.DS_Store
 

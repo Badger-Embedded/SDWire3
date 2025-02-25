@@ -273,7 +273,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -310,7 +310,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/20f03f4e-cdf2-4a2c-9907-8f2e407c3700")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -510,7 +512,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -547,7 +549,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/484c8f56-bbb3-4551-b5a2-f0fa7e1c20de")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -741,7 +745,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -754,7 +758,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C423334"
+		(property "LCSC" "C180341"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -778,7 +782,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9a0648fa-a23b-495c-a390-3de1bbc870e2")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -973,7 +979,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1010,7 +1016,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b657b1f4-4875-4a84-a268-a85a0eff033e")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1192,7 +1200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1205,7 +1213,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual diode, common anode on pin 1"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1243,6 +1251,7 @@
 			)
 		)
 		(path "/b7207ebe-99b6-4632-9c1c-77c375c09a3e")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1481,7 +1490,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1518,19 +1527,9 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91a8c466-93b4-4d18-a7f3-e522e47c9f2f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/25c2fa3f-f99e-44ab-996e-ddca3c8f7f26")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
@@ -1786,7 +1785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1799,7 +1798,7 @@
 				)
 			)
 		)
-		(property "Description" "6-channel analog mux, WQFN-24"
+		(property "Description" ""
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1836,7 +1835,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "WQFN*4x4mm*P0.5mm*")
 		(path "/29c4c50d-0f31-4972-82b9-453b9ce6dd6c")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2355,7 +2356,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual PNP transistor, 6 pin package"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2380,7 +2381,7 @@
 				)
 			)
 		)
-		(property "Part Number" "QST8TR"
+		(property "Part Number" "QST8/QST9/IMT18/IMT17/BC807D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2392,7 +2393,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SC?70* SC?88* SOT?363* SOT?23*")
 		(path "/8b8a875b-85fc-4cba-b0aa-841eb9d391fb")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2664,7 +2667,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2701,7 +2704,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/f458c61b-b7a0-4495-96fa-38310fd614a4")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2901,7 +2906,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2938,7 +2943,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/aea76c9c-418d-4968-aabb-63343deb2375")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3198,6 +3205,7 @@
 			)
 		)
 		(path "/e29a6e6c-7f45-4ab0-913a-de524f3c0b01")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3796,7 +3804,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3833,19 +3841,9 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcc7dd45-cc51-4241-8411-4dd5729c9fa3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/88908fc7-0849-4729-ae33-3417bbe4811f")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
@@ -4114,7 +4112,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4151,7 +4149,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1650e1f6-ab39-4a42-b2bb-a9e221a756ec")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4346,7 +4346,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2991668"
+		(property "LCSC" "C106229"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4383,7 +4383,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d22c7432-0922-4a7c-b63e-13d7acc6d83d")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4578,7 +4580,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4615,7 +4617,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/91ded1b0-b1b0-4f4a-be78-9957ac993ab4")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4810,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4847,7 +4851,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/dc150b67-57e8-4698-a747-741e9feccb15")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5029,7 +5035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5042,7 +5048,7 @@
 				)
 			)
 		)
-		(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5079,7 +5085,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?223* SOT?89* TO?220* TO?252* TO?263*")
 		(path "/bc05b403-1d3d-493d-9019-c86b4674c7ab")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5327,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5364,7 +5372,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9ddd5dde-d48c-4c78-a66d-365da889e1a9")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5559,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5596,7 +5606,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/fdb92d5b-6c53-4d97-8363-c57a7f68f57b")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5791,7 +5803,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5828,7 +5840,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/17ea74e6-17e6-41c8-b292-b88e1cb112ca")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6050,7 +6064,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual LED, cathodes on pins 2 and 3"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6063,7 +6077,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C264332"
+		(property "LCSC" "C970148"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6087,7 +6101,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e9abc6e5-4936-41ae-81af-0e4d7ecc43aa")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6326,7 +6342,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6363,7 +6379,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/188d88c1-aeb9-4905-a32d-fc128a224dce")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10302,7 +10320,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10339,7 +10357,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4b0124c7-3e84-414d-81ec-87cd7d26ecb6")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10534,7 +10554,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10571,7 +10591,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/fa0ac27c-4c1e-4dca-a720-4dda67dd5076")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10766,7 +10788,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10779,7 +10801,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C423334"
+		(property "LCSC" "C180341"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10803,7 +10825,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/31176b82-3897-4c98-9a3b-41de27815692")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10998,7 +11022,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11035,7 +11059,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/50cdbb62-f697-4f14-8f08-cbdc6590f038")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11235,7 +11261,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11272,7 +11298,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/bbf6f40c-a878-4593-9aa6-7a10287bd47d")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11467,7 +11495,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11480,7 +11508,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2991668"
+		(property "LCSC" "C106229"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11504,7 +11532,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9f30e678-6f34-4642-bc78-e85ee3c895b5")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11685,7 +11715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.amphenol-cs.com/media/wysiwyg/files/drawing/10137061.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11698,7 +11728,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11735,7 +11765,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/9cd7686b-776c-4788-ba68-c6a6132f1207")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12235,7 +12267,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12272,7 +12304,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03bb0f28-1abf-4034-8525-89eea8402e2c")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12467,7 +12501,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12504,19 +12538,9 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9419173-4183-4a08-9267-7dac4f54f56c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/ac575d5b-c2c2-4bc4-ace6-c70806e9baea")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
@@ -12785,7 +12809,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12822,7 +12846,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d0630a3c-c8dd-4b5f-8c1f-b504f9bbfa4a")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13022,7 +13048,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13059,7 +13085,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/dea53d13-1d11-4138-a5c8-9cdfdf1b94a7")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13254,7 +13282,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13291,7 +13319,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c91763a7-5d5a-444a-8f21-aafcf8b4595d")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13485,7 +13515,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13498,7 +13528,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C423334"
+		(property "LCSC" "C180341"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13522,7 +13552,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/97efd004-bc2f-4c14-b48f-18e0a75ccbd9")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13704,7 +13736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13717,7 +13749,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual NOT Gate Schmitt Triggered, Low-Voltage CMOS"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13754,7 +13786,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SG-* SOT*")
 		(path "/b25ab32b-8719-4593-aa5d-5c8f20bc0830")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13996,7 +14030,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14033,7 +14067,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/502fb760-784b-461a-ab8a-5566f07efb03")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14227,7 +14263,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14264,7 +14300,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1d5d549e-d58e-4566-820d-711b7bf18bbb")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14508,6 +14546,7 @@
 			)
 		)
 		(path "/a7c02123-17d5-4694-a476-4b5d0aa65017")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_line
@@ -14602,7 +14641,7 @@
 		)
 		(fp_arc
 			(start 5.23 10.971005)
-			(mid 5.197895 10.992482)
+			(mid 5.197895 10.992494)
 			(end 5.160001 11)
 			(stroke
 				(width 0.1)
@@ -14613,7 +14652,7 @@
 		)
 		(fp_arc
 			(start 5.870001 10.328995)
-			(mid 5.902112 10.307516)
+			(mid 5.902112 10.307528)
 			(end 5.94 10.3)
 			(stroke
 				(width 0.1)
@@ -14657,7 +14696,7 @@
 		)
 		(fp_arc
 			(start 10.11 9.78)
-			(mid 10.198122 9.723662)
+			(mid 10.198119 9.723665)
 			(end 10.3 9.7)
 			(stroke
 				(width 0.1)
@@ -14889,7 +14928,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14926,7 +14965,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7bc39dae-bc9a-47c9-876f-41e85cf3120e")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15163,6 +15204,7 @@
 			)
 		)
 		(path "/be70e1ce-920b-4f66-b03b-638f9009ed3e")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15452,7 +15494,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15491,35 +15533,11 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e0289d79-7940-4a5f-8ec9-1c8723ef3560")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a44a8d1b-2ff0-4b09-9297-5d5c86310779")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
+		(property ki_fp_filters "Crystal*")
 		(path "/c3719856-7676-44b9-abe1-20dc98727834")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.5 -0.7)
 			(end -0.5 0.7)
@@ -15692,7 +15710,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15731,35 +15749,11 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f32ce220-adc2-4c26-844f-6b8afc7709b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c14bbfca-7e22-4116-a7db-4583c54d4df4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
+		(property ki_fp_filters "R_*")
 		(path "/2607f060-e65d-4729-9abb-1bfa8980918e")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -19603,7 +19597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19616,7 +19610,7 @@
 				)
 			)
 		)
-		(property "Description" "Serial EEPROM, 93 Series, 8-bit word, 1.8V, SOT-23-6"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19655,35 +19649,11 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c47e55eb-e455-43d8-b102-0e31fc825516")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9da045e4-31dc-4225-966d-d44eb2137b66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/d9669532-455b-48e7-a0b0-44d35d5b0a8a")
+		(sheetname "Root")
 		(sheetfile "SD_Swap.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0 1.56)
 			(end -1.8 1.56)
